@@ -1,0 +1,252 @@
+@import url("https://use.typekit.net/cfu4scj.css");
+
+.singleCol {
+    max-width: 750px;
+}
+
+.centeredCol {
+    margin: 0 auto;
+}
+
+header {
+    /* background: linear-gradient(-.25turn, #3c2bd3,#e39624); */
+    /* background-color: #463192; */
+    background-color: #573c88;
+}
+
+.navbar {
+    font-size: 1.3em;
+    font-family: sofia-pro, sans-serif;
+    color: rgba(255,255,255,.8);
+    font-weight: 400;
+}
+
+.indexCircleImage {
+    max-width: 200px;
+}
+
+.masthead {
+    width: 100%;
+    min-height: 60vh;
+    /* min-height: 500px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.subhead {
+    width: 100%;
+    min-height: 10vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.logo {
+    /* box-shadow: 5px 5px 5px black; */
+}
+
+.subhead {
+    width: 100%;
+    height: 30vh;
+    /* min-height: 500px; */
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.black-overlay {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    background-color: rgba(0,0,0,0.0);
+    height: 100%;
+    align-items: center;   
+    text-align: center;
+}
+
+.content-box {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.content-box .row {
+    margin-left: initial;
+    margin-right: initial;
+}
+
+.masthead span {
+    height: 100%;
+    display: block;
+}
+/* 
+h1 {
+    font-size: initial;
+} */
+
+h1 {
+    margin: .3rem 0;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3em;
+    background-image: linear-gradient( 90deg, #3e2c9a 40%, #c16b55 100%);
+    padding-bottom: .5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    margin: .3rem 0;
+    margin-top: 0px;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1em;
+    font-size: 2em;
+    color: #3e2c9a;
+}
+
+
+
+.masthead h1, .masthead h2 {
+    color: white;
+    text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+    font-family: baileywick-jf-gothic, sans-serif;
+    background-image: initial;
+    padding-bottom: initial;
+    -webkit-text-fill-color: initial;
+    -webkit-background-clip: initial;
+}
+
+.masthead h2 {
+    font-size: 1.5em;
+}
+
+h1 .bigTitle {
+    font-size: 5rem;
+}
+
+.smallBottomTitle {
+    text-align: right;
+}
+
+.spotify-badge {
+    max-width: 175px;
+}
+
+/* Card body */
+
+.card-body {
+    padding: .75rem 1.25rem;
+}
+
+.card-body h3 {
+    /* border-bottom: 1px solid #573c88; */
+    /* max-width: 50%; */
+    /* margin: 0 auto; */
+    margin: 0;
+    padding: 0;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 400;
+}
+
+.card-body h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* 
+.card-body h2 a:hover {
+    background-image: linear-gradient( 45deg, #3e2c9a 40%, #c16b55 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} */
+
+
+.card-footer {
+    padding: .5rem 1.25rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-footer a {
+    color: inherit;
+}
+
+/* end card body */
+
+.dontShow {
+    display: none;
+}
+
+/* Podcast header  */
+
+.podcast-header {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    /* background-color: rgba(0,0,0,.9); */
+}
+
+.rhap_controls-section {
+    flex: initial;
+}
+
+
+.rhap_container {
+    background-color: rgba(0,0,0,0);
+    box-shadow: initial;
+    padding: 0px 3rem;
+}
+
+.podcast-header .rhap_container, .podcast-header .rhap_container * {
+    color: white;
+    outline: none;
+}
+
+.rhap_container, .rhap_container *:focus {
+    outline: none;
+}
+
+.podcast-header h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 1rem;
+}
+svg {
+    vertical-align: initial;
+}
+.podcast-header svg {
+     color: white;
+  }
+  
+  .podcast-header .rhap_additional-controls {
+    display: none;
+  }
+  
+  .podcast-header .rhap_volume-controls {
+    justify-content: initial;
+  }
+
+  .facebookMaxWidth {
+      max-width: 35px;
+  }
+
+  .graidentBG {
+    background-image: linear-gradient( 90deg, #3e2c9a 40%, #c16b55 100%);
+  }
+
+  h2.white {
+      color: white;
+  }

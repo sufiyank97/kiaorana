@@ -61,7 +61,7 @@ const IndexPage = (props, {data}) => {
           <h3 className="text-center">Recent Episodes</h3>
           <Row>
           {
-            props.data.allStrapiPodcast.nodes.map(node => (
+            props.data.allStrapiPodcast.nodes.map((node,i,arr) => (
               <Col lg={4} md={6} xs={12} key={node.id}>
 
                 <Card className="mb-4">
@@ -74,13 +74,8 @@ const IndexPage = (props, {data}) => {
                     />
                   </Link>
                   <Card.Body>
-                    {node.location ?
-                      (
-                        <h3>{node.location}</h3>
-                      ) :
-                      <Fragment />
-                    }
-
+                    
+                  <h3>Episode no. {arr.length-i}</h3>
                     <h2><Link to={node.slug} className="card-link">{node.name}</Link></h2>
 
                   </Card.Body>
@@ -189,7 +184,7 @@ export const pageQuery = graphql`
     }
 
 
-    allStrapiPodcast(limit: 6, sort: {fields: name, order: ASC}) {
+    allStrapiPodcast(sort: {fields: createdAt, order: DESC}, limit: 6) {
     nodes {
       name
       slug

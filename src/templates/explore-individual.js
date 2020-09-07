@@ -129,9 +129,6 @@ export default (props) => {
                     ) :
                     null
                   }
-
-
-
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -233,3 +230,6 @@ export const query = graphql`
 `
 
 // <img src={podcast.social.image.childImageSharp.fixed} alt="Facebook Icon" className="facebookMaxWidth mr-2" />
+
+
+

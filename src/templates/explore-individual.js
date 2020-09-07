@@ -27,13 +27,17 @@ export default (props) => {
       </Container>
       <hr />
       <Container>
-        
+          {
+            podcast.image?(
+
             <div className="featured-thumbnail">
               <p><Img
                 fluid={podcast.image.childImageSharp.fluid} fadeIn
               />
               </p>
             </div>
+            ):<Fragment/>
+          }
           
         <Row>
           <Col lg={4} md={5}>
